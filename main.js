@@ -1,6 +1,6 @@
 // Массив с паролями и соответствующими файлами
 const filePasswords = {
-    file1: { password: '0', path: 'files/ '},
+    file1: { password: '21687', path: 'files/Е-мактаб 6 Б новый.xls'},
     file2: { password: '0', path: 'files/ '},
     file3: { password: '0', path: 'files/ '},
     file4: { password: '0', path: 'files/ '},
@@ -13,7 +13,30 @@ const filePasswords = {
     file11: { password: '0', path: 'files/ ' },
     file12: { password: '0', path: 'files/ ' },
     file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file13: { password: '0', path: 'files/ ' },
+    file30: { password: '0', path: 'files/ ' },
 };
+
+let getpassword = Math.round( Math.random() * 100000 )
+console.log(getpassword);
+
+console.log(filePasswords);
+
 
 // Функция проверки пароля
 function checkPassword(file, inputId) {
